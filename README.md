@@ -1,1 +1,1 @@
-# CMSI281
+# CMSI281 classwork and homework repository
