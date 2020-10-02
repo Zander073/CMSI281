@@ -16,10 +16,6 @@ public class IntLinkedList {
       size = 0;
    }
 
-   public int getSize() {
-      return size;
-   }
-
    public void prepend( int dataToAdd ) {
       Node currentHead = head;
       head = new Node( dataToAdd );
@@ -36,10 +32,18 @@ public class IntLinkedList {
       size++;
    }
 
-   public void removeAt( int index ) {
-     getIteratorAt(index-1).currentNode.next = getIteratorAt(index+1).currentNode;
-     size--;
-
+   public int removeAt( int index ) {
+     int removedInt = getIteratorAt(index).currentNode.data;
+     if( index == 0 ) {
+       head = getIteratorAt(1).currentNode;
+     } else {
+       getIteratorAt(index-1).currentNode.next = getIteratorAt(index+1).currentNode;
+       size--;
+     }
+     return removedInt;
+   }
+   public int getSize() {
+     return size;
    }
 
    private class Node {

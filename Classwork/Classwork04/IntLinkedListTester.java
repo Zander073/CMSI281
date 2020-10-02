@@ -41,6 +41,7 @@ public class IntLinkedListTester {
       System.out.println( "Current Node is: " + myIt.getCurrentInt() );    // 19
       myIt.next();
       System.out.println( "Current Node is: " + myIt.getCurrentInt() );    // 23
+      System.out.println( "List size: " + myList.getSize());
       System.out.println( "" );
 
       // Insert value 100 at index 2
@@ -69,6 +70,7 @@ public class IntLinkedListTester {
       System.out.println( "Current Node is: " + myIt.getCurrentInt() );    // 19
       myIt.next();
       System.out.println( "Current Node is: " + myIt.getCurrentInt() );    // 23
+      System.out.println( "List size: " + myList.getSize());
       System.out.println( "" );
 
       // Remove value at index 2 (100)
@@ -76,7 +78,7 @@ public class IntLinkedListTester {
 
       // Reset iterator to start of list
       myIt = myList.getIteratorAt( 0 );
-      
+
       // Prints out list with value of 100 removed
       System.out.println( "Current Node is: " + myIt.getCurrentInt() );    // 2
       myIt.next();
@@ -95,6 +97,7 @@ public class IntLinkedListTester {
       System.out.println( "Current Node is: " + myIt.getCurrentInt() );    // 19
       myIt.next();
       System.out.println( "Current Node is: " + myIt.getCurrentInt() );    // 23
+      System.out.println( "List size: " + myList.getSize());
 
    }
 }
