@@ -1,3 +1,11 @@
+/** ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* File name  :  JosephusProblem.java
+* Purpose    :
+* @author    :  Teresa Ueunten & Zander Zemliak
+* Date       :  2020-010-17
+*  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
 import java.util.ArrayList;
 
 public class JosephusProblem {
