@@ -1,0 +1,67 @@
+
+
+Homework02 Evaluation
+======================
+
+WOW, you two did an awesome job!  Everything works as advertised, you test
+all the methods, you output messages to the user so they know what is going
+on with the programs, and your code looks really nice, showing good attention
+to the "arts and crafts" part of building code.  You even did the Josephus
+extra credit problem!
+
+Very VERY nice work, and you earned full credit on everything!
+
+Keep up the good work!!
+
+
+Evaluation follows.
+
+scores breakdown:                             worth      yours
+=============================                -------     -----
+Queue.java
+   Queue class compiles                      [1 pt.]       1
+   display method exists                     [1 pt.]       1
+QueueApp.java or main in Queue.java
+   QueueApp class compiles                   [1 pt.]       1
+   tests insert()                            [1 pt.]       1
+   tests remove()                            [1 pt.]       1
+   tests display()                           [1 pt.]       1
+   tests wrap-around insert, remove, display [1 pt.]       1
+Deque.java
+   Deque class compiles                      [1 pt.]       1
+   insertLeft method exists                  [1 pt.]       1
+   insertRight method exists                 [1 pt.]       1
+   removeLeft method exists                  [1 pt.]       1
+   removeRight method exists                 [1 pt.]       1
+   isEmpty method exists                     [1 pt.]       1
+   isFull method exists                      [1 pt.]       1
+DequeApp.java or main in Deque.java
+   tests insertLeft()                        [1 pt.]       1
+   tests insertRight()                       [1 pt.]       1
+   tests removeLeft()                        [1 pt.]       1
+   tests removeRight()                       [1 pt.]       1
+   tests isEmpty()                           [1 pt.]       1
+   tests isFull()                            [1 pt.]       1
+CircluarLinkedList.java
+   Circular linked list class compiles       [1 pt.]       1
+   insertion method works                    [1 pt.]       1
+   deletion method works                     [1 pt.]       1
+   searching method works                    [1 pt.]       1
+CircularStack.java
+   circular stack class compiles             [1 pt.]       1
+   tests work as advertised                  [1 pt.]       1
+Josephus.java
+   Josephus problem class compiles           [EC 2 pt.]    2
+   works as advertised                       [EC 5 pt.]    5
+Coding style
+   Good names, consistent indenting          [4 pt.]       4
+   Headers in all files [free not mentioned] [5 pt.]       5
+
+Total points is 35 for Queue, Deque, and Circ x 2
+ extra credit is 7 points for Josephus
+-------------------
+Grand total is 42 points
+
+You got 42 out of 35 which is 120.0% which is a Solid A-plus
+
+GREAT WORK!
