@@ -53,10 +53,6 @@ public class Simon {
 
 			if(round == 1) {
 				System.out.println("Pay attention... The game is beginning...");
-				while (elapsedTime < 5*1000) {
-				    elapsedTime = (new Date()).getTime() - startTime;
-				}
-				elapsedTime = 0L;
 			}
 			System.out.println("Score: " + score + "            Round: " + round);
 			simonString.add(currentIndex, getNextChar());
@@ -69,7 +65,7 @@ public class Simon {
 			System.out.println();
 			System.out.println("WAIT!");
 
-			while (elapsedTime < (simonString.size()*1000)) {
+			while (elapsedTime < (4+(simonString.size()*1000))) {
 			    elapsedTime = (new Date()).getTime() - startTime;
 			}
 			hideSequence();
