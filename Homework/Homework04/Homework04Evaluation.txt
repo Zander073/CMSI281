@@ -1,0 +1,75 @@
+
+Homework04 Evaluation
+======================
+
+Nice job on this assignment...
+
+Your code looks great and thanks for doing file headers!
+
+
+scores:
+=============================
+Tree Traverser
+   inOrderTraverser method implemented       [1 pt.]
+   2 test sets with at least minimal nodes   [2 pt.]
+   produces proper sequences                 [2 pt.]
+
+Priority Queue
+   Queue creation works correctly            [1 pt.]
+   insertion works correctly                 [1 pt.]
+   isFull() works correctly                  [1 pt.]
+   isEmpty() works correctly                 [1 pt.]
+   removal() works correctly                 [1 pt.]
+   heap representation works correctly       [1 pt.]
+
+Linear Probing String Hasher
+   menu works [gimme, has to work if there]  [0 pt.]
+   shows contents                            [0 pt.]
+   hash table created correctly              [0 pt.]
+   insertion works correctly                 [0 pt.]
+   linear probing works correctly            [0 pt.]
+   deletion works correctly                  [0 pt.]
+   finding works correctly                   [0 pt.]
+
+Digit Folding Hasher
+   menu works [gimme, has to work if there]  [0 pt.]
+   shows contents                            [0 pt.]
+   insertion works correctly                 [0 pt.]
+   linear probing works correctly            [0 pt.]
+   deletion works correctly                  [0 pt.]
+   finding works correctly                   [0 pt.]
+
+Coding style                                 [1 pt.]
+Tests written to test all classes            [1 pt.]
+Headers in all files                         [4 pt.]
+
+Total credit is 30 points
+-------------------------
+
+you got 17 out of 30 which is 56.67% which is a not so good.....
+
+Notes:
+======
+I only see the code for the tree traverser and the Priority Queue programs in
+your repo, so I don't know what happened there.  I've looked in my clone and
+also on line in your repo in GitHub but don'e see any code for the hashing
+problems.
+
+I'm evaluating what's here, and due to the lateness of the time that's all I
+can do, regrettably.
+
+The Tree Traverer looks good and works as advertised.  Nice that you used my
+code so I would know exactly what the tree structure was for the output!
+
+For your priority queue using the heap, it was supposed to have been turned
+into a MAX heap, but you have a MIN heap, according to the diagram that your
+program puts out.  However, when you remove things and list them out, it is
+certain that you ARE using a MAX heap, since the largest number comes out
+first!  Interesting.  Either way, you earned full credit.
+
+I wish you had been able to complete the linear probing and digit folding
+problems, but at least SOME credit is better than NO credit for the homework
+assignment, right?
+
+Still, nice job, and a decent finish to the semester!
+
